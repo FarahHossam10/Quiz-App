@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", "Roboto", sans-serif;
+}
+body{
+    background: #FBE4D8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 570px;
+}
+#container{
+    background: #384358;
+    border-radius: 30px;
+    padding: 35px 40px 20px 40px;
+    width: 55%;
+}
+h1{
+    color: #eae5e5;
+    margin-bottom: 5%;
+}
+.answer, label, #submit, input{
+    cursor: pointer;
+}
+.answer, #submit{
+    padding: 2% 3%;
+}
+.answer{
+    background: #aba9b1;
+    border-radius: 50px;
+    font-size: 1.1rem;  
+    margin-bottom: 3%; 
+    border: 2px solid transparent; 
+}
+#submit{   
+    border-radius: 10px;
+    margin: 5% 0 3% 0;
+    text-align: center;
+    background: #b51A2B;
+    font-size: 1.3rem;
+    color: #dedbdb;
+}
+input[type="radio"]{
+    accent-color:#b51A2B;
+}
+.answer:hover{
+    border: 2px solid #b51A2B;
+}
+label{
+    padding: 10px 380px 10px 10px;
+}
